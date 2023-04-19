@@ -1,0 +1,19 @@
+--How to compile
+  In this directory, enter the following command:
+    $ make
+  It will run $ g++ main.cpp -std=c++11 -O3 -o ../bin/hw2
+  It will generate the executable file "hw2" in "../bin"
+  If you want to remove it ,please enter the following command:
+    $ make clean
+
+--How to run
+  In this directory, enter the following command:
+Usage:
+    $ ../bin/hw2 [.cells file] [.nets file] [.out file]
+  If you encounter "Permission denied" error, please use this command "chmod 500 verify" to fix this error.
+    e.g. ../bin/hw2 ../testcases/p2-1.cells ../testcases/p2-1 p2-1.cells  p2-1.nets
+
+Output:
+  It will generate the solution in [.out file]
+  If you enter the wrong paths or the wrong args, it will print "Error ...". 
+    
